@@ -23,7 +23,7 @@ $(document).ready(function() {
             var y = timestamp.slice(0,4);
             var m = timestamp.slice(6,8);
             var d = timestamp.slice(9,11);
-            var hrs = timestamp.slice(13,19);
+            var hr = timestamp.slice(13,19);
             if (timestamp.slice(13,14) >= 12) {
               hrs = hrs - 12;
             };
